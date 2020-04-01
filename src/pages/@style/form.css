@@ -1,0 +1,67 @@
+.app-form-container{
+  padding: 0px 0px 150px 0px;
+}
+.app-form-wrapper{
+  font-family: 'Lato', sans-serif;
+  padding: 50px 70px 80px 70px;
+}
+.app-form-recovery{
+  font-family: 'Lato', sans-serif;
+  padding: 10px 70px 10px 70px;
+}
+.app-separate{
+  display: block;
+  padding: 10px 0px;
+}
+.app-form--helper{
+  font-weight: 100;
+}
+.app-form--fieldset{
+  border-bottom: 1px solid #e9eaeb;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.app-form--fieldset legend{
+  color: #2b2b2b;
+}
+.app-form--control{
+  display: inline-block;
+  padding: 5px 10px;
+}
+.app-form--label{
+  display: block;
+  font-weight: 500;
+}
+.app-form--input{
+  width: 350px;
+}
+.app-form--switch label{
+  margin: 24px 12px;
+}
+
+/* post */
+.app-post--control{
+  display: inline-block;
+  width: 100%;
+  padding: 5px 10px;
+}
+/* action form */
+.app-form--action{
+  padding: 0px 0px 0px 70px;
+}
+.app-form--action button{
+  margin-right: 25px;
+}
+.app-label--load{
+  color: #059706
+}
+
+/* BTN FORMS */
+.app-btn--read{
+  background-color: #242f24!important;
+  margin-top: 15px!important;
+}
+.app-btn--cancel{
+  background-color: #dc3545!important;
+  margin-top: 15px!important;
+}

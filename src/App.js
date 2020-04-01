@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import RouterApp from './routes';
+import { positions, Provider } from "react-alert";
+import AlertTemplate from "react-alert-template-basic";
+
+const options = {
+  timeout: 5000,
+  position: positions.BOTTOM_CENTER
+};
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Provider template={AlertTemplate} {...options}>
+        <RouterApp />
+      </Provider>
     </div>
   );
 }

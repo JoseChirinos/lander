@@ -1,0 +1,32 @@
+.TopNav{
+  position: relative;
+  z-index: 7;
+}
+.TopNav button{
+  outline: none!important;
+}
+.TopNav-user{
+  display: inline-block;
+  font-size: 16px;
+  line-height: 18px;
+  vertical-align: middle;
+}
+.TopNav-user small{
+  display: block;
+  font-size: 12px;
+}
+.TopNav-link{
+  cursor: pointer;
+  padding: 0px 40px;
+}
+.TopNav-link:hover,
+.TopNav-link:active
+{
+  text-decoration: none;
+  user-select: none;
+  outline: none;
+}
+.TopNav-link i,
+.TopNav-link span{
+  vertical-align: middle;
+}
